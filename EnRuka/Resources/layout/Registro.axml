@@ -18,15 +18,20 @@
             android:layout_height="wrap_content"
             android:id="@+id/etPassword"
             android:hint="Contraseña" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etEmail"
+            android:hint="Email" />
     </LinearLayout>
-    <Button
-        android:id="@+id/bulogin"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="Iniciar Sesion" />
     <Button
         android:id="@+id/buRegister"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="Registrarse" />
+    <Button
+        android:id="@+id/bulogin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Iniciar Sesion" />
 </LinearLayout>

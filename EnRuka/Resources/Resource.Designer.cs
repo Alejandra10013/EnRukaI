@@ -41,11 +41,57 @@ namespace EnRuka
 			}
 		}
 		
+		public partial class Id
+		{
+			
+			// aapt resource value: 0x7f040005
+			public const int btn_inventario = 2130968581;
+			
+			// aapt resource value: 0x7f040006
+			public const int btn_precios = 2130968582;
+			
+			// aapt resource value: 0x7f040004
+			public const int buRegister = 2130968580;
+			
+			// aapt resource value: 0x7f040003
+			public const int bulogin = 2130968579;
+			
+			// aapt resource value: 0x7f040008
+			public const int etEmail = 2130968584;
+			
+			// aapt resource value: 0x7f040002
+			public const int etPassword = 2130968578;
+			
+			// aapt resource value: 0x7f040001
+			public const int etUsername = 2130968577;
+			
+			// aapt resource value: 0x7f040000
+			public const int linearLayout1 = 2130968576;
+			
+			// aapt resource value: 0x7f040007
+			public const int spinner1 = 2130968583;
+			
+			static Id()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Id()
+			{
+			}
+		}
+		
 		public partial class Layout
 		{
 			
 			// aapt resource value: 0x7f020000
 			public const int Main = 2130837504;
+			
+			// aapt resource value: 0x7f020001
+			public const int Principal = 2130837505;
+			
+			// aapt resource value: 0x7f020002
+			public const int Registro = 2130837506;
 			
 			static Layout()
 			{
