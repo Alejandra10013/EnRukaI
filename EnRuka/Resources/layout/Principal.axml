@@ -13,10 +13,24 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btn_precios" />
-    <Spinner
-        android:prompt="Elije uno"
+    <ListView
+        android:minWidth="25px"
+        android:minHeight="25px"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/spinner1"
-        android:layout_marginBottom="68.0dp" />
+        android:id="@+id/listView3"
+        android:layout_marginTop="0.0dp" />
+    <ListView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listView2"
+        android:layout_marginTop="2.0dp" />
+    <ListView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listView1" />
 </LinearLayout>
