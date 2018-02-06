@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="app_name">EnRuka</string>
-  <string-array name="Counter">
-    <item>Productos</item>
-    <item>Insumos</item>
-    <item>Recetas</item>
+  <string name="planet_prompt">Unidad de medida</string>
+  <string-array name="planets_array">
+    <item>Lt(litro)</item>
+    <item>ml(mililitro)</item>
+    <item>cc(centrímetro cúbico)</item>
+    <item>kg(kilógramo)</item>
+    <item>g(gramo)</item>
   </string-array>
 </resources>
